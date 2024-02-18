@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style:normal;
+   
+    word-wrap:break-word;
+}
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-content: center;
+   width: 20%;
+   margin: auto;
+   padding: 15px;
+   margin-top: 150px;
+   border-radius: 10px;
+   border: solid black;
+   box-shadow: 10px 10px 2px rgb(19, 18, 18);
+}   
+.container_items{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+   align-content: center; 
+   margin: auto;
+   width: 95%;
+}
+img{
+    border-radius: 10px;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 45%;
+    overflow:hidden;
+    word-wrap:break-word;
+    height: 35px;
+    background-color: hsl(47, 88%, 63%);
+    
+}
+h4,h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.footer_img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: url("assets/images/icons8-one-finger-25.png"),auto;
+}
+h4,p{
+    font-weight: 600;
+    color: hsl(0, 0%, 50%);
+}
